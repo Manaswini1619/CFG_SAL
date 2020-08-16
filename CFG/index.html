@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sight and Life foundation</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        
+        .tableauPlaceholder {
+            outline: 3px solid #d3d3d3;
+            outline-offset: 5px;
+        }
+
+        footer {
+            margin-top: 0;
+            padding: 50px 0;
+            text-align: left;
+        }
+
+        footer .container {
+            padding: 50px 0;
+        }
+
+        footer h3 {
+            font-size: 30px;
+        }
+
+        footer ul {
+            list-style-type: none;
+            text-decoration: none;
+            color: #696767;
+            font-size: 20px;
+        }
+
+        footer i {
+            padding: 10px;
+        }
+
+        footer li a:hover, footer li a:focus {
+            text-decoration: none;
+            color: #696767;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div class="main">
+            <div class="logo">
+                <img src="img/logo.jpeg">
+            </div>
+            <ul>
+                <li class="active"><a href='index.html'><i class="fa fa-home"></i> HOME</a></li>
+                <li><a href='supply.html'><i class="fa fa-bar-chart"></i> SUPPLY</a></li>
+                <li><a href='demand.html'><i class="fa fa-line-chart"></i> DEMAND</a></li>
+            </ul>
+        </div>
+        <div class="title ">
+            <h1>Fight against malnutrition</h1>
+
+        </div>
+        <div class="button">
+            <a href="#about" class="btn bl" style="color: white; border: solid 3px #ffffff">READ MORE</a>
+        </div>
+    </header>
+    <!------About------->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-around align-items-center">
+                <div class="col-11 col-md-6">
+                    <h1 style="color:black;margin-bottom:100px">About us</h1>
+                    <div class="about-content">
+                        <h2>Egg consumption has the potential to dramatically improve health and nutrition outcomes for
+                            vulnerable populations.</h2>
+                    </div>
+                    <div class="text-center">
+                        <a type="button" href="#services" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <div class="col-11 col-md-6">
+                    <h1>Trend of Number of Eggs in Each Country</h1>
+                    <div class="row justify-content-around">
+                        <div class="col">
+                            <div class='tableauPlaceholder' id='viz1597575424100' style='position: relative'>
+                                <noscript><a href='#'><img alt=' '
+                                            src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trends_15975753758550&#47;Sheet1&#47;1_rss.png'
+                                            style='border: none' /></a></noscript><object class='tableauViz'
+                                    style='display:none;'>
+                                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                                    <param name='embed_code_version' value='3' />
+                                    <param name='site_root' value='' />
+                                    <param name='name' value='Trends_15975753758550&#47;Sheet1' />
+                                    <param name='tabs' value='no' />
+                                    <param name='toolbar' value='yes' />
+                                    <param name='static_image'
+                                        value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Tr&#47;Trends_15975753758550&#47;Sheet1&#47;1.png' />
+                                    <param name='animate_transition' value='yes' />
+                                    <param name='display_static_image' value='yes' />
+                                    <param name='display_spinner' value='yes' />
+                                    <param name='display_overlay' value='yes' />
+                                    <param name='display_count' value='yes' />
+                                    <param name='language' value='en' />
+                                    <param name='filter' value='publish=yes' /></object></div>
+                            <script
+                                type='text/javascript'>                    var divElement = document.getElementById('viz1597575424100'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width = '100%'; vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------Services------>
+    <section id="services">
+        <div class="container">
+            <h1>Our mission</h1>
+            <div class="row services">
+                <div class="col-md-3 text-center" onclick="location.href='supply.html'">
+                    <div class="icon">
+                        <i class="fa fa-bar-chart"></i>
+                    </div>
+                    <h3>Supply</h3>
+                    <p style="font-size:medium">Sight and Life implements innovative approaches to increase egg production and consumption in
+                        LMICs.</p>
+                </div>
+                <div class="col-md-3 text-center" onclick="location.href='demand.html'">
+                    <div class="icon">
+                        <i class="fa fa-line-chart"></i>
+                    </div>
+                    <h3>Demand</h3>
+                    <p style="font-size:medium">Consumer preferences and dietary beliefs strongly influence demand for eggs in addition to
+                        non-availability and economic barriers.</p>
+                </div>
+                <div class="col-md-3 text-center" >
+                    <div class="icon">
+                        <i class="fa fa-envira"></i>
+                    </div>
+                    <h3>Science and Environment</h3>
+                    <p style="font-size:medium">Eggs are a high-density food product that provide besides high-quality protein significant
+                        amounts of essential vitamins, minerals and fatty acidy for human nutrition</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                        <i class="fa fa-money"></i>
+                    </div>
+                    <h3>Economics</h3>
+                    <p style="font-size:medium">Poultry production in LMICs provides households with an important source of protein and income.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class=" text-white" style="background-color:#202020">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-11 col-md-4" id="quickLinks">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html" style="color:white;"><i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="supply.html" style="color:white; "><i class="fas fa-cog"></i>Supply</a></li>
+                        <li><a href="demand.html" style="color:white;"><i class="fas fa-list-alt"></i>Demand</a></li>
+                    </ul>
+                </div>
+                <div class="col-11 col-md-4" id="socialProfiles">
+                    <h3>Social Profiles</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/SightandLife/" style="color:white;"><i class="fab fa-facebook"></i>Facebook</a>
+                        </li>
+                        <li><a href="https://twitter.com/SightandLife" style="color:white;"><i class="fab fa-twitter"></i>Twitter</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/sightandlife/" style="color:white;"><i
+                                    class="fab fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/0cb34f0fb6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
